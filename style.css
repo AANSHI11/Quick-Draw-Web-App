@@ -1,0 +1,55 @@
+body {
+    background-color: lightsalmon;
+}
+#score {
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: fantasy;
+}
+#timer {
+    font-size: 30px;
+    margin-right: 100px;
+    float: right;
+    font-family: fantasy;
+}
+#label3 {
+    font-size: 40px;
+    font-family: fantasy;
+    color: crimson;
+}
+#label1 {
+    font-size: 40px;
+    font-family: fantasy;
+}
+#label2 {
+    font-size: 40px;
+    font-family: fantasy;
+}
+#title {
+    background-color: cornsilk;
+    font-family: fantasy;
+    color: blue;
+}
+#show_sketch {
+    float: right;
+    color: black;
+    background-color: lawngreen;
+    border-radius: 100px;
+    font-family: cursive;
+}
+canvas
+{
+border: 5px white;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes example 
+{
+from {box-shadow: 1px 1px 38px white;
+}
+to {box-shadow: 1px 1px 38px black;
+}
+}
